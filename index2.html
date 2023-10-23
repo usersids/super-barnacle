@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisonCraft</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="script2.jsx" defer></script>
+</head>
+<body>
+  <section class="image-generator">
+    <div class="content">
+      <h1 id="h123">VisonCraft</h1>
+      <p id="p123">Transforming Pixels into Masterpieces: When Artistry meets Algorithms</p>
+      <form action="#" class="generate-form">
+        <input id="prm-int" class="prompt-input" type="text" placeholder="Describe what you want to see" required>
+        <div class="controls">
+          <select class="img-quantity">
+
+            <option value="1">1 Image</option>
+            <option value="2">2 Images</option>
+            <option value="3">3 Images</option>
+            <option value="4">4 Images</option>
+            <option value="5" selected>5 Images</option>
+            
+          </select>
+          <button type="submit" class="generate-btn">Generate</button>
+
+        </div>
+      </form>
+      
+    </div>
+  </section>
+  <section class="image-gallery" id="img-gall">
+    <div class="img-card"><img src="preview.png" alt="image"></div>
+    <div class="img-card"><img src="preview.png" alt="image"></div>
+    <div class="img-card"><img src="preview.png" alt="image"></div>
+    <div class="img-card"><img src="preview.png" alt="image"></div>
+    <div class="img-card"><img src="preview.png" alt="image"></div>
+   
+  </section>
+
+  <button id="bottom-left-button" onclick="goback();">←</button>
+
+  <script>
+    document.getElementById("bottom-left-button").addEventListener("click", function() {
+      // Redirect to the destination page
+      window.location = "index.html";
+    });
+
+
+
+    
+  </script>
+</body>
+</html>
